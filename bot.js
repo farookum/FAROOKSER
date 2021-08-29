@@ -8,6 +8,37 @@ Explore
 @farookum 
 farookum
 /
+jerrymol
+forked from cyberchekuthan/farookser_v1
+0
+066
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+jerrymol/bot.js /
+@farookum
+farookum Update bot.js
+Latest commit 757b4bd 5 hours ago
+ History
+ 12 contributors
+@farhan-dqz@phaticusthiccy@yusufusta@cyberchekuthan@lyfe00011@MuhammedKpln@saidalisaid2@afnanplk@Xenon67@farookum@oguz162@justinthoms
+316 lines (280 sloc)  12.1 KB
+ 
+Skip to content
+Search or jump to…
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@farookum 
+farookum
+/
 FAROOKSER
 forked from DFA DRACULA/FAROOKSER_v1
 0
@@ -302,6 +333,18 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
 }
 
 whatsAsena();
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 © 2021 GitHub, Inc.
 Terms
 Privacy
