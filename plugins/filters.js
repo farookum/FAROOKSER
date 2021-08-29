@@ -147,9 +147,9 @@ if(pattern.test(message.message)){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '919188636883@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/trance.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/DFA DRACULA.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['ho','she','ra','mu','hot','ta','Cr7','uyir','power','va','wow','se','no','nanba','sebin','messi','maman','pha','oi','cha','muth','kiss','dey','ga','player','king','kayari','aliya','nari','omban','Hii','Da','sad','nee','myre','mood','bg','chunk','ser','kundan','sir','My','myr','umbi','bot','poda','git','alive','owner','neymar','list','help','oii','on','one','vanne','vannu','kozhi','set','Fuck','love','broke','ohoo','Bye','pne','left','Amal','don','onn','stop','setta','entry','muth','Hi','chaya']
+const array = ['ho','she','ra','mu','hot','ta','Cr7','DFA DRACULA','Farookser','FAROOK BOT','uyir','power','va','wow','se','no','nanba','sebin','messi','maman','pha','oi','cha','muth','kiss','dey','ga','player','king','kayari','aliya','nari','omban','Hii','Da','sad','nee','myre','mood','bg','chunk','ser','kundan','sir','My','myr','umbi','bot','poda','git','alive','owner','neymar','list','help','oii','on','one','vanne','vannu','kozhi','set','Fuck','love','broke','ohoo','Bye','pne','left','Amal','don','onn','stop','setta','entry','muth','Hi','chaya']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -177,7 +177,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919188636883@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/Dfa dracula.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['love','list','machu','menu','mute','onn','oo','so','unmute','wait','adi','army','bye','chaya','edit','ip','kayari','mari','money','monu','nallath','night','nyt','on','patti','po','poth','sir','Amal','Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','amal','Hi','sad','don','Loki','bye']
+const array = ['love','list','machu','menu','DFA DRACULA','Farookser','FAROOK BOT','mute','onn','oo','so','unmute','wait','adi','army','bye','chaya','edit','ip','kayari','mari','money','monu','nallath','night','nyt','on','patti','po','poth','sir','Amal','Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','amal','Hi','sad','don','Loki','bye']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
